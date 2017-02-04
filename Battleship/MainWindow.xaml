@@ -1,0 +1,18 @@
+﻿<Window x:Class="Battleship.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battleship"
+        mc:Ignorable="d"
+        Title="BattleShips" Height="300" Width="300" ResizeMode="CanMinimize">
+    <Window.Resources>
+        <SolidColorBrush x:Key="WindowBrush" Color="#455A64"/>
+    </Window.Resources>
+    <Window.Background>
+        <StaticResource ResourceKey="WindowBrush"/>
+    </Window.Background>
+    <Grid Background="#455A64" OpacityMask="#455A64">
+
+    </Grid>
+</Window>
